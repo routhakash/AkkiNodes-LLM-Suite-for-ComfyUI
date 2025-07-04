@@ -1,0 +1,28 @@
+Science Fiction
+Fantasy
+Horror
+Mystery
+Thriller
+Romance
+Comedy
+Drama
+Adventure
+Children's Story
+Cyberpunk
+Steampunk
+Space Opera
+Post-Apocalyptic
+High Fantasy
+Urban Fantasy
+Sword and Sorcery
+Psychological Horror
+Cosmic Horror
+Gothic Horror
+Crime Noir
+Hardboiled Detective
+Western
+Magical Realism
+Historical Fiction
+Mythology
+Fable or Fairy Tale
+Military Sci-Fi

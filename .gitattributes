@@ -1,0 +1,14 @@
+# .gitattributes
+
+# Set the default behavior for all text files to handle line endings automatically.
+ text=auto
+
+# Explicitly force Python, text, and markdown files to use LF line endings in the repository.
+# This is the universal standard for cross-platform development.
+.py      text eol=lf
+.txt     text eol=lf
+.md      text eol=lf
+
+# CRITICAL Force Windows-specific files to use CRLF line endings.
+# Batch files can break if they have the wrong endings.
+.bat     text eol=crlf
