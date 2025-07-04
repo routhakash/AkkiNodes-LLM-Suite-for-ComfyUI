@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![Image](https://github.com/user-attachments/assets/cde7c0c7-c60f-4829-80bd-17be62044ce6)" alt="AkkiNodes Banner" width="700"/>
+  <img src="https://github.com/user-attachments/assets/cde7c0c7-c60f-4829-80bd-17be62044ce6" alt="AkkiNodes Banner" width="1080"/>
 </p>
 
 # 🎭 AkkiNodes Suite: Your Personal AI Film Studio
@@ -34,7 +34,7 @@ Welcome to the **AkkiNodes Suite**, an advanced collection of ComfyUI nodes desi
 
 This diagram illustrates the core "Story to Screenplay" pipeline, where the output of one node seamlessly becomes the input for the next, creating a powerful chain of context.
 
-![Current Workflow Screenshot](![Image](https://github.com/user-attachments/assets/7578a655-9535-49e4-aa9d-7931c582b5ad))
+![Current Workflow Screenshot](https://github.com/user-attachments/assets/7578a655-9535-49e4-aa9d-7931c582b5ad)
 
 ---
 
@@ -64,7 +64,7 @@ This diagram illustrates the core "Story to Screenplay" pipeline, where the outp
 #### `LLM Loader v2.2 - Akki`
 The starting point for all workflows. This node loads a GGUF model into memory and provides crucial feedback on its properties.
 
-![LLM Loader Node](![Image](https://github.com/user-attachments/assets/be34d9c4-3f36-46dc-9862-a8ab9b9d9083))
+![LLM Loader Node](https://github.com/user-attachments/assets/be34d9c4-3f36-46dc-9862-a8ab9b9d9083)
 
 ---
 
@@ -73,7 +73,7 @@ The starting point for all workflows. This node loads a GGUF model into memory a
 #### `AI Story Writer v3.4 - Akki`
 A specialized "Master Narrative Architect." It takes a simple concept and a rich set of parameters to generate a complete, well-structured story.
 
-![AI Story Writer Node](![Image](https://github.com/user-attachments/assets/9169d170-b060-4090-968b-56ec78cfd970))
+![AI Story Writer Node](https://github.com/user-attachments/assets/9169d170-b060-4090-968b-56ec78cfd970)
 
 #### `Image Prompt Generator v1.0 - Akki`
 A specialized node designed to engineer high-quality image generation prompts for models like Stable Diffusion.
@@ -89,17 +89,17 @@ This is a professional, three-phase suite of nodes designed to develop a story i
 #### `AI ScriptCrafter 01 (Foundation) v3.3 - Akki`
 Analyzes the generated story to extract the core foundational elements of a screenplay: the logline, theme, and detailed character breakdowns.
 
-![ScriptCrafter 01 Node](![Image](https://github.com/user-attachments/assets/2215466f-24f0-4d08-9e3d-48cd0a304d67))
+![ScriptCrafter 01 Node](https://github.com/user-attachments/assets/2215466f-24f0-4d08-9e3d-48cd0a304d67)
 
 #### `AI ScriptCrafter 02 (Beat Sheet) v3.0 - Akki`
 Takes the foundational elements and builds the structural blueprint of the screenplay, following the classic "Save the Cat!" 15-beat structure.
 
-![ScriptCrafter 02 Node](![Image](https://github.com/user-attachments/assets/9d307fb7-7ef5-4377-a838-3e3b3baf7b25))
+![ScriptCrafter 02 Node](https://github.com/user-attachments/assets/9d307fb7-7ef5-4377-a838-3e3b3baf7b25)
 
 #### `AI ScriptCrafter 03 (Screenplay) v5.1 - Akki`
 The final phase. This node acts as an "AI Director," translating the beat sheet into a properly formatted screenplay with cinematic language.
 
-![ScriptCrafter 03 Node](![Image](https://github.com/user-attachments/assets/4092c38e-7631-4db8-9242-41bfde9cefe0))
+![ScriptCrafter 03 Node](https://github.com/user-attachments/assets/4092c38e-7631-4db8-9242-41bfde9cefe0)
 
 ---
 
