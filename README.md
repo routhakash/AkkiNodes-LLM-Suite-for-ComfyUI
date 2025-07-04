@@ -5,8 +5,8 @@
 # 🎭 AkkiNodes Suite: Your Personal AI Film Studio
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/ComfyUI-AkkiNodes-Suite/stargazers"><img src="https://img.shields.io/github/stars/YOUR_USERNAME/ComfyUI-AkkiNodes-Suite?style=social" alt="Stars"></a>
-  <a href="https://github.com/YOUR_USERNAME/ComfyUI-AkkiNodes-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/YOUR_USERNAME/ComfyUI-AkkiNodes-Suite?color=blue" alt="License"></a>
+  <a href="https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/stargazers"><img src="https://img.shields.io/github/stars/routhakash/ComfyUI-AkkiNodes-Suite?style=social" alt="Stars"></a>
+  <a href="https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/routhakash/ComfyUI-AkkiNodes-Suite?color=blue" alt="License"></a>
   <img src="https://img.shields.io/badge/Version-v15.1.0-blueviolet" alt="Version">
   <img src="https://img.shields.io/badge/ComfyUI-Compatible-brightgreen" alt="ComfyUI">
 </p>
@@ -35,6 +35,25 @@ Welcome to the **AkkiNodes Suite**, an advanced collection of ComfyUI nodes desi
 This diagram illustrates the core "Story to Screenplay" pipeline, where the output of one node seamlessly becomes the input for the next, creating a powerful chain of context.
 
 ![Current Workflow Screenshot](https://github.com/user-attachments/assets/7578a655-9535-49e4-aa9d-7931c582b5ad)
+
+---
+
+## ⚡ Get Started: Example Workflow
+
+To help you hit the ground running, this repository includes a sample ComfyUI workflow file that demonstrates the complete "Story to Screenplay" pipeline shown above.
+
+### How to Use
+
+1.  **Download the Workflow File:**
+    *   [**Right-click here and "Save Link As..." to download `Example_Workflow.json`**](https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/blob/main/Example_Workflow.json)
+
+2.  **Load in ComfyUI:**
+    *   Simply drag and drop the downloaded `.json` file directly onto your ComfyUI canvas.
+
+3.  **Connect Your Model:**
+    *   The only thing you'll need to do is select your desired GGUF model in the `LLM Loader` node.
+
+**Note:** You must have the AkkiNodes suite installed correctly *before* loading the workflow, otherwise ComfyUI will show errors about missing custom nodes.
 
 ---
 
