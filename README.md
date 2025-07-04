@@ -45,7 +45,7 @@ To help you hit the ground running, this repository includes a sample ComfyUI wo
 ### How to Use
 
 1.  **Download the Workflow File:**
-    *   [**Right-click here and "Save Link As..." to download `Example_Workflow.json`**](https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/blob/main/Example_Workflow.json)
+    *   [**Right-click here and "Save Link As..." to download `Example_Workflow.json`**](https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI/blob/main/Example_Workflow.json)
 
 2.  **Load in ComfyUI:**
     *   Simply drag and drop the downloaded `.json` file directly onto your ComfyUI canvas.
