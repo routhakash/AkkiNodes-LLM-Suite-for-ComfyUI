@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkkiNodes Suite: Master Project & Workflow Specification v2.0</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+            margin-bottom: 0.25rem;
+        }
+        h1 span {
+            font-size: 0.6em;
+            color: #bb86fc;
+            display: block;
+            margin-top: 0.5rem;
+        }
+        h2 {
+            font-size: 2em;
+            color: #03dac6;
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+        h3 {
+            font-size: 1.5em;
+            color: #cf6679;
+            margin-top: 2rem;
+        }
+        h4 {
+            font-size: 1.2em;
+            color: #bb86fc;
+            margin-bottom: 0.5rem;
+        }
+        p, li {
+            font-size: 1.1em;
+            color: #cccccc;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        code, pre {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            background-color: #2a2a2a;
+            border-radius: 4px;
+            padding: 0.2em 0.4em;
+            font-size: 0.9em;
+        }
+        pre {
+            padding: 1em;
+            overflow-x: auto;
+            border: 1px solid #333;
+        }
+        .node-card {
+            background-color: #2c2c2c;
+            border-left: 5px solid #bb86fc;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+        .data-example pre {
+            background-color: #1a1a1a;
+            border-color: #444;
+            color: #b3b3b3;
+        }
+        .label {
+            color: #03dac6;
+            font-weight: 600;
+        }
+        .architectural-note {
+            background-color: rgba(207, 102, 121, 0.1);
+            border-left: 3px solid #cf6679;
+            padding: 0.5em 1em;
+            margin-top: 1em;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>AkkiNodes LLM Suite <span>Master Project & Workflow Specification v2.0</span></h1>
+        </header>
+
+        <section>
+            <h2>1. The Big Idea: The "Script to Screen" Philosophy</h2>
+            <p>The primary, high-level goal of the AkkiNodes Suite is to create a complete, end-to-end "Script to Screen" production pipeline that operates <strong>100% locally</strong>. It is designed to empower a single creative user to go from a simple idea to a full set of production-ready visual assets (character designs, set designs, and final shot prompts) without relying on any cloud services, APIs, or external dependencies.</p>
+            <p>This workflow is architected as a <strong>modular, phased production line</strong>, mirroring a professional creative studio. Each phase takes the canonical output of the previous one, progressively refining a core idea into a set of structured, reliable data products.</p>
+        </section>
+
+        <section>
+            <h2>2. Core Architectural Principles</h2>
+            <p>The entire suite is built on a set of core principles that guide every development decision. Understanding these principles is key to understanding the "why" behind each node's design.</p>
+            <ul>
+                <li><strong class="label">Intellectual Sparring Partner:</strong> The development process itself is built on rigorous debate and skepticism. The AI's role is to prioritize truth over agreement, challenge assumptions, provide counterpoints, and test reasoning to arrive at the most robust solution.</li>
+                <li><strong class="label">Workflow Checkpointing (The "Save & Resume" Model):</strong> The pipeline is intentionally designed to save its progress to disk at the end of every major step. This "pass-by-disk" architecture allows a user to pause their work, tweak a specific creative choice, and resume the pipeline from that point without having to re-run everything from the beginning. It prioritizes a fast <em>iterative creative cycle</em> over a fast single execution.</li>
+                <li><strong class="label">Fix Data at the Source:</strong> A data error or creative deficiency should always be fixed in the node that <em>produces</em> the data (the "producer"), rather than creating new "patch" nodes downstream to clean it up. This keeps the pipeline lean and efficient.</li>
+                <li><strong class="label">Deterministic Code over Non-Deterministic AI:</strong> For tasks that require absolute precision, factual accuracy, or rigid formatting (like enforcing a character's age or formatting a screenplay), a deterministic Python function is always superior to a non-deterministic AI. We use AI for creativity and code for correctness.</li>
+                <li><strong class="label">Divide and Conquer (The "Specialist" Model):</strong> A single, large AI trying to perform many different creative tasks at once is unreliable. Complex creative challenges are broken down into a series of smaller, more focused tasks, each handled by a specialized AI agent (or a specialized node with an internal multi-stage pipeline).</li>
+                <li><strong class="label">Defined Data Standards:</strong> To ensure interoperability, the pipeline adheres to strict data standards, such as <strong>Title Case</strong> for all canonical character names and the <strong><code>MAIN SET - SUB LOCATION</code></strong> convention for parsing set hierarchies.</li>
+                 <li><strong class="label">Fail Gracefully:</strong> Nodes should be designed to handle foreseeable errors without crashing the entire workflow. When a required asset is missing, a node should output a clear <code>ERROR:...</code> string and a placeholder (like a blank image), allowing the user to diagnose the problem without a full crash.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Development History & Lessons Learned</h2>
+            <p>The current architecture is the result of extensive testing and refinement. Several key architectural decisions and bug fixes have shaped the final design of the suite.</p>
+
+            <h3>Key Successes (Validated Architectures)</h3>
+            <ul>
+                <li><strong>The "Python Enforcer" Pattern:</strong> First perfected in the <code>Character Lookdev</code> node, this pattern uses a final, deterministic Python function to surgically inject or correct factual data (like a character's age) after an AI's creative pass. This has proven to be the definitive solution for fixing AI factual hallucinations.</li>
+                <li><strong>The "Analyze & Refine" Architecture:</strong> Implemented in <code>ScriptCrafter P1</code>, this architecture replaced a brittle multi-stage AI pipeline. It uses a single, comprehensive AI call for a creative first draft, followed by a powerful deterministic Python function to parse, consolidate, and enforce correctness. This is the gold standard for bible generation.</li>
+                <li><strong>The "Creative Draft + Deterministic Formatter" Architecture:</strong> The definitive solution for screenplay generation in <code>ScriptCrafter P3</code>. It accepts that AIs are unreliable at strict formatting and uses a deterministic Python "Master Post-Processor" to guarantee a 100% clean, machine-readable output every time.</li>
+                <li><strong>Data-Driven Hierarchy Inference:</strong> The <code>Asset Selector</code>'s logic to programmatically parse set hierarchies from the CSV data (based on the `MAIN SET - SUB LOCATION` convention) successfully removed hard-coded, project-specific logic from the node, making it truly reusable.</li>
+            </ul>
+            
+            <h3>Rejected Architectures & Anti-Patterns</h3>
+            <ul>
+                <li><strong>Monolithic "God Functions" (DEPRECATED):</strong> Early attempts, like `Parser v7.x`, that tried to handle parsing, sanitization, and normalization in a single, massive function were found to be unmaintainable and prone to cascading regressions. The final architecture relies exclusively on pipelines of small, single-purpose functions.</li>
+                <li><strong>AI for Deterministic Tasks (DEPRECATED):</strong> Multiple tests confirmed that using an LLM for strict formatting, rule-based categorization, or data consolidation is unreliable. The proposal to use an AI for semantic consolidation in the `Asset Selector` was rejected due to unacceptable risks of non-determinism and cost. These tasks are now handled exclusively by deterministic Python code.</li>
+                <li><strong>Hard-Coding Production Logic (DEPRECATED):</strong> An early version of the `Asset Selector` (`v2.22`) hard-coded a project-specific `set_map` into its logic. This was identified as a critical architectural flaw and was replaced by the superior data-driven inference model.</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>4. The Production Pipeline: A Phase-by-Phase Breakdown</h2>
+            
+            <h3>Phase 1: Narrative Development</h3>
+            <p><em>Goal: To transform a simple idea into a complete, well-structured, and consistent set of narrative documents.</em></p>
+            
+            <article class="node-card">
+                <h4>Node: <code>AI Story Writer</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To be the initial creative spark. It takes a high-level concept and generates a complete prose story.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> The user provides a story idea and selects creative parameters (genre, tone, character types, etc.). The node uses these as "known facts" to guide an LLM in writing a full narrative.</p>
+                <p><strong class="label">Key Inputs:</strong> A story idea (string), creative parameters (selections from menus).</p>
+                <p><strong class="label">Key Outputs:</strong> A complete prose story (string).</p>
+                <div class="data-example">
+                    <p><strong>Data Example (Output):</strong></p>
+                    <pre>The red dust swirled around Lily Patel’s boots as she sprinted across the Martian surface...</pre>
+                </div>
+            </article>
+
+            <article class="node-card">
+                <h4>Nodes: <code>AI ScriptCrafter P1, P2, P3 (Bible)</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To function as an automated "Writer's Room," adapting the prose story into a professional, machine-readable screenplay.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> This is a 3-step sub-pipeline:
+                    <ol>
+                        <li><strong><code>P1 (Bible)</code>:</strong> Reads the story and creates the canonical <strong>Character Bible</strong> (who the characters are) and <strong>World Bible</strong> (the rules of the story's universe). It uses a powerful "Analyze & Refine" Python process to ensure data accuracy.</li>
+                        <li><strong><code>P2 (Beat Sheet)</code>:</strong> Reads the story and bibles to create a structural blueprint (a "Save the Cat!" beat sheet).</li>
+                        <li><strong><code>P3 (Screenplay)</code>:</strong> Uses a sophisticated 3-stage AI pipeline ("Architect," "Cinematographer," "Script Doctor") to write a creatively rich screenplay, then uses a deterministic Python "Master Post-Processor" to guarantee perfect, industry-standard formatting.</li>
+                    </ol>
+                </p>
+                <p><strong class="label">Key Inputs:</strong> The prose story, bibles, and beat sheet.</p>
+                <p><strong class="label">Key Outputs:</strong> A perfectly formatted screenplay text.</p>
+                <div class="data-example">
+                    <p><strong>Data Example (Output):</strong></p>
+                    <pre>1. EXT. MARTIAN SURFACE - DAY
+
+Red dust whips across the ochre landscape... LILY PATEL (30s, determined, athletic) boots kick up plumes of crimson as she sprints desperately towards Sector Gamma-7.
+
+                        RICHARD WOOD (O.S.)
+                You’re late.</pre>
+                </div>
+                <p class="architectural-note"><strong>Architectural Note:</strong> The success of this sub-pipeline comes from its hybrid approach. AI is used for the creative adaptation, but deterministic Python is used for the critical tasks of bible data consolidation (P1) and final screenplay formatting (P3), preventing AI errors from corrupting the final output.</p>
+            </article>
+
+            <h3>Phase 2: Pre-Production & Data Consolidation</h3>
+            <p><em>Goal: To translate the creative screenplay into a single, canonical, spreadsheet-like data file that will govern the entire visual production.</em></p>
+
+            <article class="node-card">
+                <h4>Node: <code>AI Cinematographer (Pro)</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To act as the Director of Photography, breaking down the screenplay into a detailed, shot-by-shot list.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Reads the screenplay scene-by-scene and uses an AI to generate a list of every shot required to tell the story, detailing the camera work, action, characters, and assets in each shot. The output is creative but may be "dirty."</p>
+                <p><strong class="label">Key Inputs:</strong> The final screenplay.</p>
+                <p><strong class="label">Key Outputs:</strong> A raw <code>shot_breakdown_report</code>.</p>
+            </article>
+            
+            <article class="node-card">
+                <h4>Node: <code>AI QC Supervisor</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To be the data sanitization filter.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Reads the raw shot breakdown and uses a specialized AI and Python logic to find and remove "junk" data (e.g., a character's face listed as a prop, an emotion listed as a costume).</p>
+                <p><strong class="label">Key Inputs:</strong> The raw <code>shot_breakdown_report</code>.</p>
+                <p><strong class="label">Key Outputs:</strong> A <code>clean_shot_breakdown_report</code>.</p>
+                <p class="architectural-note"><strong>Architectural Note:</strong> This node represents acknowledged architectural debt. It exists to patch the output of the `Cinematographer`. The long-term goal is to harden the `Cinematographer`'s prompt to the point where this QC step is no longer necessary, adhering to the "Fix Data at the Source" principle.</p>
+            </article>
+
+            <article class="node-card">
+                <h4>Node: <code>Pro Shot List Parser</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To be the definitive "gatekeeper" of clean production data.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Ingests the clean shot breakdown, performs a final, robust data normalization (including correcting character name variations), and produces the final, canonical <strong>production CSV file</strong>.</p>
+                <p><strong class="label">Key Inputs:</strong> The <code>clean_shot_breakdown_report</code>.</p>
+                <p><strong class="label">Key Outputs:</strong> The <code>full_report_csv</code>.</p>
+                <div class="data-example">
+                    <p><strong>Data Example (Output):</strong></p>
+                    <pre>"SCENE","LOCATION","SHOT","CHARACTERS","PROPS (Lily Patel)"...
+"1","EXT. MARTIAN SURFACE - DAY","1A","Lily Patel","Boots, Utility belt"...</pre>
+                </div>
+            </article>
+            
+            <h3>Phase 3: Visual Development (Lookdev)</h3>
+            <p><em>Goal: To establish the final, approved "art direction" for every character and set in the production.</em></p>
+
+            <article class="node-card">
+                <h4>Node: <code>Asset Selector</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To act as the Production Manager, providing a high-level overview of all required assets.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Reads the production CSV and generates master lists of all characters and sets. It allows the user to select a specific asset to work on for look development.</p>
+                <p><strong class="label">Key Inputs:</strong> The <code>full_report_csv</code>.</p>
+                <p><strong class="label">Key Outputs:</strong> The <code>selected_character_name</code> or <code>set_hierarchy_json</code> for the chosen asset.</p>
+            </article>
+
+            <article class="node-card">
+                <h4>Nodes: <code>AI Character Lookdev</code> & <code>AI Set Lookdev</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To function as the Art Department, creating the definitive visual "blueprint" for each asset.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> These nodes take the selected asset name and use a sophisticated multi-stage AI pipeline to generate a rich, detailed, story-specific prompt that describes the asset's final appearance. A final "Python Enforcer" stage guarantees factual details (like age) are correct. For sets, it generates a master "blueprint" and then unique "snapshots" for different times of day.</p>
+                <p><strong class="label">Key Inputs:</strong> Selected asset name, bibles, CSV.</p>
+                <p><strong class="label">Key Outputs:</strong> A final, detailed lookdev prompt (string).</p>
+                <div class="data-example">
+                    <p><strong>Data Example (Character Lookdev Output):</strong></p>
+                    <pre>full body portrait of a young woman standing in a neutral A-pose...
+
+(early 20s), athletic build, 5’7”, oval face, high cheekbones...
+
+deep slate grey Terraforming Academy jumpsuit, durable, breathable synthetic fabric...</pre>
+                </div>
+            </article>
+            
+            <h3>Phase 4: Shot Production (Final Prompting)</h3>
+            <p><em>Goal: To take the established art direction from Phase 3 and combine it with the specific action of a single shot to create the final, ready-to-render image prompt.</em></p>
+
+            <article class="node-card">
+                <h4>Node: <code>Shot Selector</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To isolate a single shot from the production for detailed work.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Reads the production CSV and, based on a user-selected <code>shot_index</code>, outputs all data for that specific shot, including a structured JSON object.</p>
+                <p><strong class="label">Key Inputs:</strong> The <code>full_report_csv</code>, a <code>shot_index</code>.</p>
+                <p><strong class="label">Key Outputs:</strong> <code>SEL_shot_data_JSON</code> and other shot-specific data.</p>
+            </article>
+
+            <article class="node-card">
+                <h4>Node: <code>Shot Asset Loader</code></h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To be the "on-set assistant," fetching all the required visual assets for a specific shot.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> Takes the <code>shot_index</code> and finds and loads the final, approved lookdev <code>.png</code> images and <code>.txt</code> prompts for the specific characters and set variation required for that shot.</p>
+                <p><strong class="label">Key Inputs:</strong> <code>shot_index</code>, project path, CSV.</p>
+                <p><strong class="label">Key Outputs:</strong> The lookdev images and prompts for the selected shot.</p>
+            </article>
+            
+            <article class="node-card">
+                <h4>Nodes: <code>AI Scene Choreographer</code>, <code>Dossier Assembler</code>, <code>Prompt Weaver</code> (The Legacy Chain)</h4>
+                <p><strong class="label">Purpose (The "Why"):</strong> To function as the "on-set director," combining the "what happens" (from the CSV) with the "what it looks like" (from the lookdev prompts) into a single, final render prompt.</p>
+                <p><strong class="label">Behavior (The "How"):</strong> This is a chain of nodes that first uses an AI to generate bible-aware prose for a whole scene (<code>Choreographer</code>), then uses a utility node to assemble the data for one shot (<code>Dossier Assembler</code>), and finally uses another AI to perform a final creative polish (<code>Prompt Weaver</code>).</p>
+                <p><strong class="label">Key Inputs:</strong> Data from the <code>Shot Selector</code> and <code>Shot Asset Loader</code>.</p>
+                <p><strong class="label">Key Outputs:</strong> The final, ready-to-render prompt for a single shot.</p>
+                <p class="architectural-note"><strong>Architectural Note:</strong> This fragmented, multi-node implementation is a known architectural weakness. The long-term plan is to consolidate the logic of these three nodes into a single, powerful, multi-stage "AI Shot Prompter" node to improve efficiency and reduce workflow complexity.</p>
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# --- character_age.txt ---
+
+# --- Infancy & Early Childhood (Ages 0-5) ---
+Infant (0-1 years old)
+Toddler (2-3 years old)
+Preschooler (4-5 years old)
+
+# --- Childhood (Ages 6-12) ---
+Young Child (6-7 years old)
+Child (8-9 years old)
+Pre-teen (10-12 years old)
+
+# --- Adolescence (Ages 13-19) ---
+Early Teenager (13-14 years old)
+Mid-Teenager (15-16 years old)
+Late Teenager (17-19 years old)
+
+# --- Young Adulthood (Ages 20-39) ---
+Young Adult (20s)
+Adult (30s)
+
+# --- Middle Age (Ages 40-59) ---
+Middle-aged (40s)
+Middle-aged (50s)
+
+# --- Seniority (Ages 60+) ---
+Senior (60s)
+Elderly (70s)
+Venerable Elder (80s and beyond)
+
+# --- Non-Specific & Relative Ages ---
+Ageless (Appears as a specific age, but does not age)
+Variable (Age is fluid or changes)
+Chronologically Ancient (but appears young)
+Chronologically Ancient (and appears ancient)

@@ -1,0 +1,176 @@
+# --- character_role.txt ---
+
+# --- Modern & Professional ---
+Accountant
+Archaeologist
+Archivist
+Artist
+Astronaut
+Athlete
+Baker
+Barista
+Biologist
+CEO
+Chef
+City Planner
+Codebreaker
+Con Artist
+Corporate Executive
+Cult Deprogrammer
+Data Broker
+Detective
+Diplomat
+Doctor/Surgeon
+Engineer
+Entrepreneur
+Ethics Officer
+Ex-Con
+Farmer
+Firefighter
+Gardener
+Gamer
+Hacker
+Historian
+Investigative Journalist
+Lawyer
+Librarian
+Mechanic
+Musician
+Office Drone
+Park Ranger
+Photographer
+Pilot
+Professor
+Psychologist
+Scientist
+Skater
+Social Media Influencer
+Student
+Teacher
+Technician
+Vlogger
+Wilderness Expert
+
+# --- Authority, Governance & Military ---
+Admiral
+Bailiff
+Captain (of a guard/ship)
+City Official
+Drill Sergeant
+Emperor/Empress
+General
+Government Agent
+Guard
+Inquisitor
+Judge
+King/Queen
+Knight
+Legionary
+Military Commander
+Police Chief
+Politician
+President
+Prime Minister
+Prince/Princess
+Senator
+Sergeant
+Sheriff
+Warden
+
+# --- Action, Adventure & Underground ---
+Acrobat
+Archer
+Assassin
+Barbarian
+Bounty Hunter
+Burglar
+Circus Performer
+Corporate Spy
+Crime Boss
+Courier
+Demon Hunter
+Duelist
+Explorer
+Fence (dealer in stolen goods)
+Gang Leader
+Gladiator
+Gunslinger
+Heir (to a throne/fortune)
+Hitman
+Martial Artist
+Mercenary
+Mob Enforcer
+Monster Hunter
+Mountaineer
+Ninja
+Pirate Captain
+Poacher
+Private Investigator
+Rebel/Freedom Fighter
+Rogue
+Samurai
+Scout
+Smuggler
+Space Marine
+Spy
+Street Racer
+Super-Soldier
+Super-Villain's Intern
+Thief
+Time Traveler
+Treasure Hunter
+Warlord
+
+# --- Arcane, Religious & Esoteric ---
+Acolyte
+Alchemist
+Bishop
+Cleric
+Cult Leader
+Druid
+Exorcist
+Healer
+Heretic
+High Priest/Priestess
+Illusionist
+Mage
+Medium
+Monk
+Mystic
+Necromancer
+Oracle/Seer
+Paladin
+Prophet
+Shaman
+Sorcerer/Sorceress
+Warlock
+Witch/Wizard
+Zealot
+
+# --- Historical & Service Roles ---
+Blacksmith
+Butler
+Calligrapher
+Cartographer
+Courtesan
+Court Jester
+Executioner
+Groom (stable hand)
+Herald
+Innkeeper
+Lady-in-waiting
+Maid
+Merchant
+Messenger
+Minstrel
+Philosopher
+Physician (historical)
+Scribe
+Servant
+Shopkeeper
+Squire
+Steward
+Tailor
+Tavern Keeper
+Town Crier
+Viking Raider

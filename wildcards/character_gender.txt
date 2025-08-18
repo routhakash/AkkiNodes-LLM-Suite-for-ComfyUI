@@ -1,0 +1,13 @@
+# --- gender.txt ---
+Male
+Female
+Non-binary
+Agender
+Genderfluid
+Two-Spirit
+Transgender Male
+Transgender Female
+Androgynous
+It/Its (for non-humanoid entities)
+They/Them (as a singular pronoun)
+Unspecified

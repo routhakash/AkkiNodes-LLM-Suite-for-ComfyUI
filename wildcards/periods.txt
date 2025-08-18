@@ -1,0 +1,108 @@
+# --- periods.txt ---
+
+# --- Fictional & Genre Eras ---
+The Age of Magic
+The Age of Sail and Piracy
+A Cyberpunk Future
+A Distant, Utopian Future
+A Gritty, Dystopian Near-Future
+A Post-Apocalyptic Wasteland
+A Solar-Punk Eco-Future
+A Space Opera Galaxy
+A Steampunk Alternate History
+
+# --- Modern & 21st Century ---
+The Present Day (2020s)
+The Information Age (2010s)
+The Post-9/11 Era (2000s)
+
+# --- 20th Century ---
+The Late 20th Century (1980s-1990s)
+The Cold War Era (1947-1991)
+The Disco Era (1970s)
+The Counter-culture Revolution (1960s)
+The Atomic Age (1950s)
+The World War II Era (1939-1945)
+The Great Depression (1930s)
+The Roaring Twenties (1920s)
+The World War I Era (1914-1918)
+The Edwardian Era (1901-1910)
+
+# --- 19th Century ---
+The Gilded Age (Late 19th Century America)
+The Victorian Era (1837-1901)
+The American Civil War (1861-1865)
+The American Old West (c. 1865-1895)
+The Industrial Revolution (c. 1760-1840)
+The Regency Era (1811-2020)
+The Napoleonic Era (1799-1815)
+
+# --- Early Modern (c. 1500-1800) ---
+The Age of Enlightenment (18th Century)
+The Golden Age of Piracy (c. 1650-1730)
+The Elizabethan Era (1558-1603)
+The Renaissance (c. 1300-1600)
+The Tudor Period (1485-1603)
+Feudal Japan (c. 1185-1868)
+
+# --- Medieval (c. 500-1500) ---
+The Late Middle Ages
+The High Middle Ages
+The Viking Age (c. 793-1066)
+The Early Middle Ages (Dark Ages)
+
+# --- Ancient & Classical (Pre-500 AD) ---
+The Roman Empire
+The Roman Republic
+Ancient Greece (Classical Period)
+Ancient Egypt (New Kingdom)
+The Bronze Age
+The Stone Age
+The Prehistoric Era
+
+# --- Numerical & Century-Based (NEW & UPDATED) ---
+The 10000s (Far Future)
+The 5000s
+The 4000s
+The 3000s
+The 2500s
+The 22nd Century
+The 21st Century
+The 2020s
+The 2010s
+The 2000s
+The 1990s
+The 1980s
+The 1970s
+The 1960s
+The 1950s
+The 1940s
+The 1930s
+The 1920s
+The 1910s
+The 1900s
+The 20th Century
+The 19th Century
+The 18th Century
+The 17th Century
+The 16th Century
+The 15th Century
+The 14th Century
+The 13th Century
+The 12th Century
+The 11th Century
+The 10th Century
+The 9th Century
+The 8th Century
+The 7th Century
+The 6th Century
+The 5th Century
+The 4th Century
+The 3rd Century
+The 2nd Century
+The 1st Century
+The 1st Century BC
+The 2nd Century BC
+The 5th Century BC
+The 10th Century BC
+The 20th Century BC

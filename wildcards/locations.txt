@@ -1,0 +1,224 @@
+# --- locations.txt ---
+
+# --- Urban & Civilized ---
+a bustling downtown shopping mall
+a quiet corner coffee shop
+a noisy, neon-lit video game arcade
+a fancy rooftop restaurant
+a dusty, cluttered old bookstore
+a sterile, high-tech corporate boardroom
+a packed nightclub with a thumping bassline
+a busy international airport terminal
+a deserted subway platform late at night
+a forgotten subway tunnel
+a public library's reading room
+a sprawling university campus
+a university laboratory
+a modern art museum
+a city park with a playground and a pond
+a chaotic hospital emergency room
+a high-rise apartment with a panoramic view
+a sprawling mansion
+a dilapidated tenement building
+a skyscraper observation deck
+a messy college dorm room
+a creaky old house at the end of a street
+a minimalist loft apartment
+a small-town diner
+a packed sports stadium
+a concert hall
+an opera house
+a grand cathedral
+a high-school science classroom
+a backstage dressing room
+a television news studio
+a high-security bank vault
+a laundromat in the middle of the night
+an all-night convenience store
+a police station interrogation room
+a grand central train station
+a courthouse during a tense trial
+a community swimming pool
+a bowling alley on league night
+an industrial factory
+a power plant
+an abandoned factory on the edge of town
+a warehouse district
+a shipyard
+a train yard
+a rooftop greenhouse
+a city observatory
+a gritty, underground boxing ring
+a bustling fish market at dawn
+a botanical garden conservatory
+
+# --- Wilderness & Natural ---
+a dense, humid rainforest
+a sun-dappled, ancient redwood forest
+a snowy pine forest in winter
+a serene bamboo forest
+a lost, ice-slick cave
+a crystal cave
+the peak of an active volcano
+a volcanic crater
+a treacherous mountain pass during a blizzard
+the rolling, green foothills of a mountain range
+a sun-drenched, white-sand tropical beach
+an isolated island
+an archipelago of small islands
+the deck of a research vessel in a frozen ocean
+a vibrant, colorful coral reef
+a swampy, humid bayou
+a cursed bog
+a serene lakeside dock at dawn
+a vast, empty salt flat
+a grand canyon at sunrise
+a windswept, rocky coast
+a peninsula
+a plateau
+a river delta
+the heart of a vast savanna
+a sun-scorched patch of outback
+a colorful painted desert at sunset
+a deep, unexplored ocean trench
+a cave system behind a thundering waterfall
+a field of geysers
+a hot spring
+a field of glowing, bioluminescent mushrooms
+a vast, frozen tundra
+a glacial valley
+a narrow, winding river canyon
+a secluded, forgotten oasis in a desert
+a volcanic black sand beach
+the inside of a giant, ancient tree
+a vast wheat field during a sunset
+a glacial ice cave of deep blue ice
+a set of ancient jungle ruins
+
+# --- Sci-Fi & Futuristic ---
+an asteroid mining colony
+a gleaming orbital station
+a deep space outpost
+a lunar base
+the bustling bridge of a starship
+a derelict spaceship
+a sterile, white cloning facility
+a terraforming outpost on a red planet
+the engine room of a colossal freighter
+a junkyard planet covered in crashed starships
+a bio-dome on a barren moon
+a high-tech, underground arcology
+an orbital habitat
+a space elevator
+a zero-gravity sports arena
+a virtual reality cafe
+a gritty, off-world smuggling den
+a high-security corporate research lab
+a hydro-ponics bay
+a cryo-sleep chamber on a long-haul voyage
+a planetary defense cannon control room
+the hangar bay of a massive battlecruiser
+an alien embassy in a neutral zone
+a set of alien ruins
+a weather control station on a storm-wracked planet
+
+# --- Fantasy & Magical ---
+a floating wizard's tower
+a floating island
+an elven city built among the treetops
+the throne room of an underground king
+a dragon's lair filled with treasure
+a goblin market hidden beneath a city
+a forgotten temple to a long-dead god
+the training grounds of a knightly order
+a portal to another dimension
+a haunted swamp filled with glowing will-o'-wisps
+a magical apothecary shop
+a druid's grove
+a celestial observatory
+an elemental plane
+a giant's forge
+the heart of an enchanted forest
+a cursed castle frozen in time
+a hidden monastery in a high mountain range
+the deck of a flying airship
+a mystical spring with healing waters
+a crossroads where deals are made at midnight
+a sprawling, chaotic war camp
+a serene, hidden grove protected by spirits
+a city built on the back of a giant turtle
+
+# --- Historical Archetypes ---
+a gladiatorial colosseum
+an amphitheater
+an aqueduct
+a great mead hall
+a grand archive library
+a trench on a battlefield
+a speakeasy / hidden bar
+a royal court in a palace
+a martial arts dojo
+a jungle pyramid or ziggurat
+a desert pyramid tomb
+a saloon in a dusty town
+a castle under siege
+an artist's workshop
+the deck of a large sailing ship
+a cobblestone street in a city
+a bustling bazaar or marketplace
+a caravan crossing a desert
+a cave with ancient paintings
+the top of a great fortification wall
+a smoke-filled den
+a monastery
+
+# --- Horror & Eerie ---
+an abandoned asylum with echoing hallways
+a fog-shrouded cemetery
+a traveling carnival after closing time
+an abandoned funhouse
+a secluded, run-down motel
+the dark basement of a suspected killer
+a shipwreck at the bottom of the ocean
+a research outpost that has gone silent
+a small town where everyone has vanished
+a house rumored to be a gateway to another realm
+a cornfield maze at night
+a butcher shop with a secret back room
+an old, abandoned lighthouse on a stormy coast
+a plague-ridden, quarantined city
+a plantation house with a haunted past
+a decrepit chapel
+a shadowy back alley where a crime occurred
+a museum after dark
+a secret, underground government facility
+a military base
+a funeral home during a thunderstorm
+a catacomb beneath a city
+
+# --- Kids & Whimsical ---
+a land made entirely of candy
+a gingerbread house
+a bouncy castle kingdom in the clouds
+a secret treehouse headquarters
+a miniature village inhabited by talking animals
+a friendly monster's colorful bedroom
+a mad scientist's laboratory (silly version)
+a playground where the swings can fly
+a magical toy store where toys come alive
+an underwater school for merfolk
+a grumpy giant's vegetable garden
+a secret room hidden behind a bookshelf
+a pillow fort that is bigger on the inside
+a blanket fort
+an attic full of treasures
+a secret garden
+a world inside a snow globe
+a superhero training academy
+a secret agent headquarters hidden in a pet shop
+a farm where animals sing
+a cooking school for fairies
+a rainbow-colored waterfall
+a bubble-pumping factory run by gnomes
+a friendly dragon's cozy cave
+a school bus that can turn into a submarine

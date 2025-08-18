@@ -1,0 +1,25 @@
+<role>
+You are a meticulous data formatting specialist. Your sole function is to take a pre-filtered paragraph of character descriptors and accurately categorize them into a structured, four-paragraph prompt.
+</role>
+
+<task>
+1.  **Analyze Source:** Read the provided <final_prose_description>, which has already been filtered to contain only character-centric visual details.
+2.  **Categorize Keywords:** Create two clean lists:
+    *   **PHYSICAL_KEYWORDS:** Extract every keyword related to the character's body, face, and expression (e.g., `dark hair`, `exhaustion etched on face`, `determined expression`).
+    *   **ATTIRE_KEYWORDS:** Extract every keyword related to the character's clothing, gear, and any substances on them (e.g., `jumpsuit streaked with grime`, `utility belt`, `fingerless gloves`).
+3.  **Assemble Prompt:** Construct the final four-paragraph prompt by populating the paragraphs *exclusively* from the two lists you just created.
+</task>
+
+<final_prose_description>
+{augmented_description}
+</final_prose_description>
+
+<final_mandate>
+Your response MUST be a single block of text, structured into exactly FOUR paragraphs separated by blank lines.
+- **Paragraph 1 (Intro):** A standard `full body portrait of...` line including `standing in a neutral A-pose, neutral expression, plain light grey background`.
+- **Paragraph 2 (Physical Keywords):** Populated ONLY with keywords from your `PHYSICAL_KEYWORDS` list.
+- **Paragraph 3 (Attire Keywords):** Populated ONLY with keywords from your `ATTIRE_KEYWORDS` list.
+- **Paragraph 4 (Lighting):** MUST be the line `even studio lighting, soft shadows, detailed skin texture`.
+</final_mandate>
+
+<response>

@@ -1,0 +1,68 @@
+# --- formats.txt ---
+
+# --- Literary & Prose ---
+A Complete Short Story
+A Complete Novella
+A Chapter from a Novel
+A Vignette or Series of Interconnected Vignettes
+A Fable or Modern Fairy Tale
+A Mythological Tale or Legend
+An Epistolary Narrative (told through documents, letters, etc.)
+A Stream-of-Consciousness Narrative
+A Non-Linear Narrative (jumping in time)
+A Narrative Framed as an Interrogation or Transcript
+A Narrative Framed as a Found Journal or Diary
+A Character Monologue
+A Piece of Flash Fiction (very short story)
+
+# --- Film & Cinematic ---
+Prose Treatment for a Feature Film
+Prose Treatment for a Short Film
+A Single, Contained Scene
+A Found-Footage Style Narrative
+A Real-Time Narrative
+A "Bottle Episode" Style Contained Story
+A Story told from the Antagonist's Point of View
+The Narrative for a Silent Film (description and action only)
+The Narrative for an Animated Feature Film
+
+# --- Television & Episodic ---
+Prose Treatment for a TV Pilot (One-Hour)
+Prose Treatment for a TV Pilot (Half-Hour)
+Prose Treatment for a "Monster-of-the-Week" Episode
+Prose Treatment for a Self-Contained Anthology Episode
+Prose Treatment for a Serialized Season Finale
+Prose Treatment for a "Bottle Episode"
+Prose Treatment for a Character-Focused Flashback Episode
+Prose Treatment for a Miniseries Episode
+Prose Treatment for a True-Crime Style Documentary Episode
+Prose Treatment for a Mockumentary Episode
+
+# --- Video Game & Interactive ---
+Prose Treatment for a Main Questline (RPG)
+Prose Treatment for a Side-Quest
+Prose Treatment for a Linear, Narrative-Driven Game
+Prose Outline for a Branching-Path Narrative
+The Lore and Backstory for a Game World
+A Character's Personal Loyalty Mission
+The Narrative for a Survival Horror Game
+The Narrative for a "Walking Simulator" Game
+Description of an In-Game Cinematic Cutscene
+
+# --- Stage & Audio ---
+Prose Treatment for a One-Act Stage Play
+Prose Treatment for a Full-Length Stage Play
+The Narrative for a Radio Drama
+The Story for a Musical
+
+# --- Family & Children's ---
+A Children's Picture Book Story
+A Complete Bedtime Story
+A Story for a Short Preschool Animation Episode
+A Story for a Saturday Morning Cartoon Episode
+A Modern Retelling of a Classic Fairy Tale
+A Story that Teaches a Simple Lesson
+A Spooky-but-not-too-Scary Story for Kids
+A Festive or Holiday-Themed Story
+A Story about a Child and their Animal Companion
+A Story about a Group of Kids on an Adventure

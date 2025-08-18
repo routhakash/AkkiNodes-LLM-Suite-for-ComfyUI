@@ -1,0 +1,108 @@
+# --- character_identity.txt ---
+
+# --- Human States & Types ---
+Human
+Child
+Teenager
+Preschooler
+Mutant
+Cyborg
+Clone
+Psionic/Telepath
+Post-human
+
+# --- Fantasy & Mythological (Classical) ---
+Angel
+Demon
+Dragon
+Dwarf
+Elf
+Fae/Fairy
+Gargoyle
+Ghost
+Giant
+Gnome
+Goblin
+God/Goddess
+Griffin
+Harpy
+Lich
+Mermaid/Merman
+Nymph
+Ogre
+Orc
+Phoenix
+Satyr
+Spirit
+Troll
+Unicorn
+Valkyrie
+Vampire
+Werewolf
+
+# --- Sci-Fi & Space Opera ---
+AI (Artificial Intelligence)
+Alien (Generic)
+Android
+Bioroid
+Cephalopod-like Alien
+Crystalline Entity
+Energy Being
+Grey Alien
+Hive-mind Drone
+Hologram
+Humanoid Alien
+Insectoid Alien
+Machine/Robot
+Reptilian Alien
+Sentient Plant
+Silicon-based Lifeform
+
+# --- Horror & Cosmic Horror ---
+Aberration
+Cosmic Entity
+Cryptid (e.g., Bigfoot, Mothman)
+Deep One
+Doppelgänger
+Ghoul
+Revenant/Zombie
+Slime/Ooze
+Specter/Poltergeist
+Vengeful Spirit
+
+# --- Animal & Creature ---
+Bear
+Cat
+Cloud
+Dog
+Dolphin
+Eagle
+Fox
+Horse
+Insect
+Ladybug
+Lion
+Octopus
+Predator (Generic)
+Rat
+Shark
+Snail
+Snake
+Spider
+Squirrel
+Teddy Bear
+Whale
+Wolf
+
+# --- Abstract & Unique ---
+Avatar/Manifestation
+Force of Nature
+Interdimensional Being
+Living Shadow
+Living Starship
+Sentient City
+Sentient Computer Virus
+Sentient Planet
+Supernatural Stalker
+Talking Car
+Time Lord/Temporal Being

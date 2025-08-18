@@ -1,0 +1,142 @@
+# --- conflicts.txt ---
+
+# --- Epic & World-Ending ---
+A last stand against an unstoppable horde
+A mission to re-ignite a dying sun
+A war between gods or cosmic entities
+A war between magic and technology
+Closing a portal to a dimension of horrors
+Deactivating a world-ending superweapon
+Deactivating a rogue, god-like AI
+Preventing a magical plague that animates the dead
+Preventing a prophecy that foretells the end of the world
+Searching for a new home planet for a dying race
+Shattering a curse afflicting an entire kingdom
+Stopping an immortal, tyrannical emperor
+Uniting warring factions against a common, greater threat
+
+# --- Survival & Exploration ---
+A desperate escape from a natural disaster
+A journey across a war-torn country
+A mission to map an uncharted, mysterious land
+A perilous expedition to a legendary landmark
+A sole survivor of a crash in a remote wilderness
+A struggle to escape a collapsed mine or cave system
+An astronaut stranded in orbit
+Being shipwrecked on a deserted island
+Being hunted by a relentless predator
+Escaping a maximum-security prison
+Surviving a city-wide blackout and riot
+Surviving a zombie apocalypse
+The first manned mission to a hostile, unexplored planet
+Trapped and cut off from the world in a remote outpost
+
+# --- Mystery & Conspiracy ---
+A historical secret that could shatter a nation's identity
+A spy trying to find a mole within their own agency
+A case of stolen identity where an impostor has taken over
+A journalist who knows too much and is now being hunted
+Decoding a cryptic message that predicts an assassination
+Discovering one's own memories are false implants
+Exposing a powerful corporation's dangerous experiments
+Finding a missing person who has vanished from reality
+Solving a cold case from decades ago
+Solving a series of ritualistic murders tied to an ancient cult
+The search for a legendary lost artifact that others are hunting
+Uncovering a conspiracy that goes to the highest level of government
+Uncovering a declaration of war hidden in a peace treaty
+
+# --- Crime & Heist ---
+An art heist to recover a stolen masterpiece
+A con artist's one last, impossible scam
+A desperate race to clear one's own name after being framed
+A high-stakes heist to steal a powerful object
+A detective hunting a brilliant, untouchable criminal mastermind
+A lawyer defending a client they know is guilty of a different crime
+Infiltrating a powerful criminal organization
+Bringing down a corrupt official from the inside
+Planning and executing the perfect, victimless crime
+The violent and chaotic aftermath of a heist gone wrong
+
+# --- Personal & Internal ---
+A battle against addiction and the temptation of relapse
+A choice between a safe life and a passionate, risky dream
+A crisis of faith or loss of purpose
+A quest for redemption after a past failure caused a tragedy
+A struggle to maintain one's morality in a corrupt environment
+A struggle to overcome a crippling fear or phobia
+Amnesia and the terrifying search for a forgotten identity
+Coming to terms with a terminal illness
+Grappling with the corrupting influence of a parasitic entity
+Learning to love oneself after a lifetime of self-doubt
+Trying to live up to the legacy of a famous or powerful parent
+
+# --- Relationship Conflicts ---
+A bitter rivalry with a sibling or former best friend
+A choice between saving a loved one or saving the world
+A choice between two equally compelling romantic partners
+A moral dilemma of reporting a friend's or family member's crime
+A family divided by a civil war or political idealogy
+Betrayal by a trusted mentor or ally
+Reconnecting with an estranged family member
+Seeking revenge against those who wronged one's family
+Trying to forgive someone for an unforgivable act
+
+# --- Social & Political ---
+A rebellion against an alien species that has conquered Earth
+A desperate struggle against an oppressive, bureaucratic system
+A political game of intrigue to overthrow a tyrannical ruler
+A revolution against a corrupt government
+A single person standing up to an intimidating bully
+A small community defending their home from a hostile corporation
+Fighting for equality and justice in a prejudiced society
+Leading a labor strike against exploitative conditions
+The first-contact between two vastly different cultures
+
+# --- Fantasy & Adventure ---
+A journey to the top of a forbidden mountain
+A mission to broker peace between two warring tribes
+A quest to find a legendary, mythical creature
+A quest to gather the scattered pieces of a divine artifact
+A search for a magical herb to cure a sick loved one
+Delivering an important message through enemy territory
+Exploring an ancient, trap-filled tomb
+Rescuing a royal heir kidnapped by a rival nation
+Returning a lost magical item to its rightful place
+The trial-by-combat for the fate of a kingdom
+
+# --- Sci-Fi & Technology ---
+A bounty hunter tasked with capturing a rogue android
+A clone who discovers the original is a wanted criminal
+A data courier with a secret in their head that everyone wants
+A hacker trying to expose a mega-corporation's hidden truth
+A mission to shut down a weather control machine gone haywire
+A soldier fighting a war using remotely-piloted drones
+A starship crew dealing with a parasitic alien on board
+A technician trying to stop a nuclear reactor meltdown
+Escaping a society with 24/7 surveillance
+Rescuing colonists from a planet in the path of a comet
+
+# --- Young Adult & Teen ---
+A battle of the bands for the fate of the city
+A road trip with friends that goes terribly wrong
+A summer camp where spooky campfire stories start coming true
+A secret that, if revealed, could ruin a friendship or social standing
+Being chosen for a destiny they never asked for
+Discovering a secret, magical world hidden just out of sight
+The pressure to choose a career path versus a personal passion
+Trying to fit in at a new, intimidating high school
+Uncovering a dark secret about the town's founders
+Winning a high-stakes competition to save a family home or business
+
+# --- Kids & Lighthearted ---
+A race to return an overdue library book before the grumpy librarian finds out
+A sleepover where a valuable item goes missing
+Building the most amazing treehouse in the whole world
+Finding a lost pet and trying to return it to its owner
+Helping a friendly alien fix his spaceship to get home
+Learning how to share a new toy with a friend
+Putting on a neighborhood talent show to save the local park
+Solving the mystery of who is stealing all the pies from windowsills
+Winning the school science fair with an ambitious project
+The fear of the dark and the monster under the bed

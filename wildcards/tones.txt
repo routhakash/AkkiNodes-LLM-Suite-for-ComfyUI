@@ -1,0 +1,280 @@
+# --- tones.txt ---
+
+# --- General & Mood-Based ---
+Allegorical and Symbolic
+Atmospheric
+Atmospheric and Moody
+Cinematic and Sweeping
+Clinical and Detached
+Detached
+Dramatic
+Dreamlike
+Eerie
+Experimental and Avant-Garde
+Grounded and Realistic
+Intimate
+Intimate and Personal
+Lyrical
+Lyrical and Poetic
+Minimalist
+Minimalist and Stark
+Moody
+Mysterious
+Mysterious and Eerie
+Naturalistic and Unfiltered
+Objective and Factual
+Operatic and Grand
+Poetic
+Primal
+Primal and Visceral
+Realistic
+Serious
+Serious and Dramatic
+Stylized
+Stylized and Theatrical
+Subtle and Nuanced
+Surreal
+Surreal and Dreamlike
+
+# --- Positive & Uplifting ---
+Awe-inspiring and Epic
+Cathartic
+Charming
+Charming and Sweet
+Comforting
+Comforting and Reassuring
+Empowering
+Empowering and Cathartic
+Earnest
+Earnest and Sincere
+Epic
+Heartwarming
+Heartwarming and Uplifting
+Hopeful
+Hopeful and Optimistic
+Inspirational
+Inspirational and Triumphant
+Joyful
+Joyful and Celebratory
+Jubilant and Exuberant
+Life-Affirming
+Majestic
+Majestic and Grandiose
+Nostalgic
+Nostalgic and Reflective
+Optimistic
+Passionate
+Peaceful
+Peaceful and Serene
+Playful and Lighthearted
+Reassuring
+Reflective
+Romantic
+Romantic and Passionate
+Sentimental
+Sentimental and Touching
+Serene
+Sincere
+Spiritual
+Spiritual and Reverent
+Sweet
+Tender and Gentle
+Triumphant
+Uplifting
+
+# --- Negative & Dark ---
+Apprehensive and Paranoid
+Bitter
+Bleak
+Bleak and Nihilistic
+Claustrophobic
+Claustrophobic and Oppressive
+Corrupt and Decadent
+Cynical
+Dark
+Dark and Gritty
+Disturbing
+Disturbing and Unsettling
+Dread-filled and Hopeless
+Fatalistic
+Foreboding
+Foreboding and Ominous
+Gloomy
+Gloomy and Morose
+Grim
+Grim and Unforgiving
+Haunting
+Haunting and Melancholy
+Hopeless
+Macabre and Ghoulish
+Malevolent
+Malevolent and Sinister
+Melancholy
+Morose
+Mournful
+Nightmarish
+Nightmarish and Hellish
+Nihilistic
+Ominous
+Oppressive
+Paranoid
+Pessimistic
+Pessimistic and Fatalistic
+Sinister
+Somber
+Somber and Mournful
+Tragic
+Tragic and Heartbreaking
+Uncanny
+Uncanny and Strange
+Unsettling
+Vengeful
+Vengeful and Bitter
+
+# --- High-Energy & Intense ---
+Action-Packed
+Action-Packed and Intense
+Bombastic
+Bombastic and Over-the-Top
+Breathless
+Breathless and Exciting
+Chaotic
+Chaotic and Frenetic
+Electrifying
+Electrifying and Exhilarating
+Energetic
+Exciting
+Explosive
+Explosive and Violent
+Fiery
+Frantic
+Frantic and Hectic
+Frenetic
+Hectic
+High-Stakes
+Intense
+Maniacal
+Maniacal and Unhinged
+Passionate and Fiery
+Relentless
+Relentless and Unrelenting
+Suspenseful
+Tense
+Tense and Suspenseful
+Thrilling
+Thrilling and High-Stakes
+Turbulent and Volatile
+Urgent
+Urgent and Fast-Paced
+Violent
+Visceral
+Visceral and Gory
+Wild
+Wild and Uninhibited
+
+# --- Comedic ---
+Absurdist
+Absurdist and Surreal
+Blackly Comedic
+Campy
+Campy and Kitschy
+Clever
+Deadpan
+Deadpan and Dry
+Dry
+Farcical
+Farcical and Ridiculous
+Goofy
+Irreverent
+Irreverent and Raunchy
+Ironic
+Kitschy
+Mocking
+Parodic
+Parodic and Mocking
+Raunchy
+Satirical
+Satirical and Ironic
+Screwball
+Screwball and Zany
+Self-Deprecating
+Silly
+Slapstick
+Slapstick and Goofy
+Tongue-in-Cheek
+Witty
+Witty and Clever
+Wry
+Wry and Understated
+Zany
+
+# --- Intellectual & Reflective ---
+Ambiguous
+Ambiguous and Open-ended
+Analytical
+Analytical and Scholarly
+Cautionary
+Cautionary and Didactic
+Cerebral
+Cerebral and Philosophical
+Contemplative
+Contemplative and Meditative
+Cynical and World-Weary
+Didactic
+Existential
+Ironic and Detached
+Matter-of-Fact
+Meditative
+Meta
+Meta and Self-Aware
+Philosophical
+Political
+Political and Socially-Conscious
+Pragmatic
+Pragmatic and Matter-of-Fact
+Scholarly
+Self-Aware
+Speculative
+Speculative and Inquisitive
+Thought-Provoking
+
+# --- Whimsical & Family-Friendly ---
+Adventurous
+Adventurous and Exciting
+Bouncy
+Cheerful
+Cheerful and Bouncy
+Comforting
+Cozy
+Cozy and Comforting
+Curious
+Curious and Wide-Eyed
+Educational
+Educational and Engaging
+Enchanting
+Enchanting and Magical
+Engaging
+Fantastical
+Fantastical and Imaginative
+Friendly
+Friendly and Welcoming
+Gentle
+Gentle and Soothing
+Goofy
+Heartfelt
+Heartfelt and Genuine
+Imaginative
+Innocent
+Magical
+Mischievous
+Mischievous and Playful
+Playful
+Silly
+Soothing
+Sweet
+Sweet and Innocent
+Whimsical
+Whimsical and Charming
+Welcoming
+Wonder-filled
+Wonder-filled and Awestruck

@@ -1,0 +1,125 @@
+# --- genres.txt ---
+
+# --- Action & Adventure ---
+Action
+Adventure
+Action-Adventure
+Disaster Film
+Espionage / Spy Fiction
+Heist / Caper
+Martial Arts
+Pirate Adventure
+Superhero
+Swashbuckler
+War / Military Fiction
+
+# --- Science Fiction ---
+Science Fiction (General)
+Alternate History
+Biopunk
+Cyberpunk
+Dying Earth
+Hard Sci-Fi
+Military Sci-Fi
+Post-Apocalyptic
+Sci-Fi Adventure
+Sci-Fi Comedy
+Sci-Fi Horror
+Sci-Fi Mystery
+Solarpunk
+Space Opera
+Steampunk
+Time Travel
+
+# --- Fantasy ---
+Fantasy (General)
+Contemporary Fantasy
+Dark Fantasy
+Epic / High Fantasy
+Fairy Tale / Fable
+Gaslamp Fantasy
+Heroic Fantasy
+Historical Fantasy
+LitRPG / GameLit
+Magical Realism
+Mythic Fiction
+Portal Fantasy
+Steampunk Fantasy
+Sword and Sorcery
+Urban Fantasy
+
+# --- Horror ---
+Horror (General)
+Body Horror
+Cosmic Horror / Lovecraftian
+Creature Feature
+Folk Horror
+Found Footage
+Gothic Horror
+Haunting / Ghost Story
+Monster (Vampire, Werewolf, etc.)
+Psychological Horror
+Slasher / Survival Horror
+Splatter / Extreme Horror
+Supernatural Horror
+
+# --- Thriller, Mystery & Crime ---
+Thriller (General)
+Conspiracy Thriller
+Crime Fiction
+Cozy Mystery
+Hardboiled Detective
+Historical Mystery
+Legal Thriller
+Locked-Room Mystery
+Medical Thriller
+Noir / Neo-Noir
+Police Procedural
+Psychological Thriller
+Spy Thriller
+Techno-thriller
+
+# --- Drama ---
+Drama (General)
+Biographical (Biopic)
+Character Study
+Coming-of-Age
+Family Saga
+Historical Drama
+Legal Drama
+Medical Drama
+Melodrama
+Political Drama
+Slice of Life
+Sports Drama
+
+# --- Comedy ---
+Comedy (General)
+Absurdist Comedy
+Black Comedy / Dark Comedy
+Farce
+Mockumentary
+Parody
+Raunchy Comedy
+Romantic Comedy
+Satire
+Screwball Comedy
+Slapstick Comedy
+Slice of Life Comedy
+
+# --- Specialized & Hybrid Genres ---
+Allegory
+Dystopian
+Family / All-Ages
+Kids (Preschool)
+Kids (6-12)
+Musical
+Mythology
+Noir
+Paranormal Romance
+Romance
+Speculative Fiction
+Tragedy
+Utopian
+Western
+Young Adult (YA)

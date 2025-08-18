@@ -1,0 +1,220 @@
+# --- story_arc.txt ---
+
+# --- Character-Driven Arcs ---
+A Character's Fall from Grace
+A Character's Moral Decline
+A Character's Spiritual Journey
+A Crisis of Faith
+A Crisis of Identity
+A Cynic Learns to Hope
+A Desperate Character's Gamble
+A Hero's descent into Villainy
+A Loss of Innocence
+A Martyr's Sacrifice
+A Pacifist Forced to Fight
+A Protagonist's Inner Demons
+A Redemption Quest
+A Search for Belonging
+A Search for Meaning or Purpose
+A Villain's Path to Redemption
+Accepting a New Mantle or Responsibility
+Coming of Age
+Confronting a Dark Past
+Confronting Fear
+Coping with Grief and Loss
+Finding Courage
+Finding One's Voice
+From Cowardice to Bravery
+From Selfishness to Selflessness
+Learning a Hard Lesson
+Learning to Trust Again
+Letting Go of the Past
+Losing One's Humanity
+Mastering an Inner Power
+Overcoming a Fatal Flaw
+Overcoming Addiction
+Overcoming Imposter Syndrome
+Reclaiming a Lost Identity
+Resisting Temptation
+The Burden of a Secret
+The Burden of Power
+The Pursuit of Perfection
+The Weight of a Prophecy
+Transformation Through Suffering
+
+# --- Classic Plot Structures ---
+A Comedy of Errors
+A Satirical Takedown
+A Tragic Hero's Downfall
+Fish Out of Water
+Man vs. Nature
+Man vs. Self
+Man vs. Society
+Man vs. Supernatural
+Man vs. Technology
+Rebirth or Renewal
+Rags to Riches
+The Hero with a Thousand Faces (Hero's Journey)
+The Reluctant Hero's Journey
+Tragedy (The Inevitable Doom)
+Voyage and Return
+
+# --- Quest & Journey Arcs ---
+A Journey to a Forbidden Land
+A Journey to the Center of the Earth
+A Pilgrimage to a Holy Site
+A Race Around the World
+A Road Trip of Self-Discovery
+An Expedition into Uncharted Territory
+Chasing a MacGuffin
+Delivering a Crucial Message
+Escorting a Protected Person
+Following a Treasure Map
+The Fetch Quest
+The Ill-Fated Expedition
+The Search for a Lost City
+The Search for a Lost Person
+The Search for a Mythical Creature
+The Search for a Powerful Artifact
+The Search for a Cure
+The Search for Knowledge
+
+# --- Mystery & Discovery Arcs ---
+A Cold Case Investigation
+A Conspiracy Uncovered
+A Locked-Room Mystery
+A Paranormal Investigation
+A Political Conspiracy
+A Race to Solve a Riddle
+A Serial Killer Investigation
+An Undercover Operation
+Clearing an Innocent Name
+Connecting a Series of Unrelated Events
+Corporate Espionage
+Deciphering an Ancient Prophecy
+Discovering a Hidden World
+Discovering a Secret Society
+Exposing a Corruption
+Exposing a Cover-Up
+Following a Trail of Clues
+Piecing Together Fragmented Memories
+Solving a Family Secret
+The Hunt for a Mole or Traitor
+Uncovering a Forgotten History
+Unmasking the Mastermind
+
+# --- Rise & Fall Arcs ---
+A Celebrity's Rise and Fall
+A Corporation's Rise and Fall
+A Criminal Empire's Rise and Fall
+A Political Leader's Rise and Fall
+A Revolution's Rise and Betrayal
+An Athlete's Rise and Fall
+From Hero to Pariah
+From Nobody to Legend
+The Corrupting Influence of Power
+The Price of Ambition
+The Rise and Fall of a Dynasty
+The Rise of an Underdog
+
+# --- Survival & Escape Arcs ---
+A Daring Prison Break
+A Last Stand Against Overwhelming Odds
+An Escape from a Dying World
+An Escape from a Hostile Planet
+An Escape from a Natural Disaster
+An Escape from a War-Torn Country
+An Escape from Captivity
+Castaway on a Deserted Island
+Hunt or Be Hunted
+Sole Survivor
+Stranded in a Hostile Environment
+Survival Against a Monster
+Survival in a Post-Apocalyptic World
+Trapped in a Confined Space
+The Final Countdown (Race Against Time)
+
+# --- Relationship-Driven Arcs ---
+A Dysfunctional Family Drama
+A Forbidden Love
+A Love Triangle
+A Mentor-Student Relationship
+A Tale of Two Rivals
+An Unlikely Friendship
+Bittersweet First Love
+Enemies to Lovers
+Estranged Family Reunion
+Found Family
+Friends Torn Apart by Conflict
+Love Across Social Classes
+One-Sided Love
+Reuniting with a Lost Love
+Rivals Forced to Work Together
+Second Chance at Love
+Star-Crossed Lovers
+The Betrayal of a Friend
+The Bonds of Siblings
+The End of a Friendship
+
+# --- Conflict & Resolution Arcs ---
+A Coup d'État
+A David vs. Goliath Story
+A Gang War
+A Rebellion Against a Tyrant
+A Revenge Plot
+A Sibling Rivalry
+A War Between Ideologies
+A War Between Nations
+A War for Resources
+Civil War
+Defending a Homeland from Invasion
+Starting a Revolution
+Taming the Beast
+The Inevitable War
+The Pursuit of Justice
+Uniting Warring Factions
+
+# --- Transformation & Change Arcs ---
+A Body Swap
+A Civilization's First Contact
+A Fish Out of Time (Time Travel)
+A Society on the Brink of Change
+Building a New World from the Ashes
+Cursed to a New Form (Metamorphosis)
+From Hunter to Protector
+From Skeptic to Believer
+Gaining Unwanted Powers
+Losing Powers and Adapting
+The End of an Era
+The Last of One's Kind
+The World After a Cataclysm
+
+# --- Genre-Specific Arcs ---
+(Cyberpunk) A Run Against a Mega-Corporation
+(Cyberpunk) Jacking into the Matrix
+(Dystopian) Sparking a Rebellion
+(Fantasy) Defeating the Dark Lord
+(Fantasy) Mastering a Magical Ability
+(Fantasy) Protecting the Magical Artifact
+(Fantasy) The Chosen One's Destiny
+(Fantasy) Uniting the Realm
+(Heist) Assembling the Crew
+(Heist) The One Last Job
+(Heist) The Perfect Crime
+(Horror) A Descent into Madness
+(Horror) Investigating a Haunted Place
+(Horror) Surviving the Slasher
+(Horror) The Final Girl's Story
+(Horror) Uncovering a Cosmic Truth
+(Sci-Fi) A Journey on a Generation Ship
+(Sci-Fi) A Time Loop Anomaly
+(Sci-Fi) Exploring a Derelict Starship
+(Sci-Fi) First Contact with an Alien Species
+(Sci-Fi) The Sentient AI Rebellion
+(Sports) The Underdog Team's Championship Run
+(Superhero) An Origin Story
+(Superhero) Hero Hangs Up the Cape
+(Superhero) The Supervillain's Master Plan
+(Western) A Lone Gunslinger Cleans Up a Town
+(Western) A Cattle Drive Across Dangerous Lands
+(Western) Defending the Homestead

@@ -2,58 +2,33 @@
   <img src="https://github.com/user-attachments/assets/cde7c0c7-c60f-4829-80bd-17be62044ce6" alt="AkkiNodes Banner" width="1080"/>
 </p>
 
-# 🎭 AkkiNodes Suite: Your Personal AI Film Studio
+# 🎭 AkkiNodes LLM Suite: Your Personal AI Film Studio
 
 <p align="center">
-  <a href="https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/stargazers"><img src="https://img.shields.io/github/stars/routhakash/ComfyUI-AkkiNodes-Suite?style=social" alt="Stars"></a>
-  <a href="https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/routhakash/ComfyUI-AkkiNodes-Suite?color=blue" alt="License"></a>
-  <img src="https://img.shields.io/badge/Version-v15.1.0-blueviolet" alt="Version">
+  <a href="https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI/stargazers"><img src="https://img.shields.io/github/stars/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI?style=social" alt="Stars"></a>
+  <a href="https://github.com/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI/blob/main/LICENSE"><img src="https://img.shields.io/github/license/routhakash/AkkiNodes-LLM-Suite-for-ComfyUI?color=blue" alt="License"></a>
+  <img src="https://img.shields.io/badge/Version-v77.0.0-blueviolet" alt="Version">
   <img src="https://img.shields.io/badge/ComfyUI-Compatible-brightgreen" alt="ComfyUI">
 </p>
 
-Welcome to the **AkkiNodes Suite**, an advanced collection of ComfyUI nodes designed to build a complete, end-to-end creative pipeline. This suite empowers you to go from a simple idea to a fully realized visual product—be it a short film, a cinematic, or a visual novel—all within your local ComfyUI environment.
+Welcome to the **AkkiNodes Suite**, a professional, end-to-end creative pipeline for ComfyUI. This suite empowers you to go from a simple idea to a fully realized visual product—be it a short film, a cinematic, or a visual novel—all within your local ComfyUI environment.
 
 ---
 
 ## ✨ Core Philosophy: 100% Local, 100% Private
 
-<div style="background-color: #1a2a38; padding: 15px; border-radius: 10px; border: 1px solid #3a5a78;">
-  <h3 style="margin-top: 0; color: #58a6ff;">🌐 No Internet? No Problem.</h3>
-  <p>This entire suite is built around one core principle: <strong>your creativity should never depend on a cloud service.</strong> All Large Language Model (LLM) processing happens directly on your own computer. This means:</p>
-  <ul>
-    <li>✅ <strong>Total Privacy:</strong> Your scripts, stories, and ideas stay on your machine.</li>
-    <li>✅ <strong>No API Keys, No Fees:</strong> Run as many generations as you want, for free.</li>
-    <li>✅ <strong>Offline Capable:</strong> Once set up, you can generate content without an internet connection.</li>
-    <li>✅ <strong>Uncensored Creativity:</strong> You have full control over the models you use and the content you create.</li>
-  </ul>
-</div>
+> ### 🌐 No Internet? No Problem.
+> This entire suite is built around one core principle: **your creativity should never depend on a cloud service.** All Large Language Model (LLM) processing happens directly on your own computer. This means:
+> - ✅ **Total Privacy:** Your scripts, stories, and ideas stay on your machine.
+> - ✅ **No API Keys, No Fees:** Run as many generations as you want, for free.
+> - ✅ **Offline Capable:** Once set up, you can generate content without an internet connection.
+> - ✅ **Uncensored Creativity:** You have full control over the models you use and the content you create.
 
 ---
 
-## 🚀 Workflow at a Glance
+## 🚀 The "Script to Screen" Pipeline
 
-This diagram illustrates the core "Story to Screenplay" pipeline, where the output of one node seamlessly becomes the input for the next, creating a powerful chain of context.
-
-![Current Workflow Screenshot](https://github.com/user-attachments/assets/7578a655-9535-49e4-aa9d-7931c582b5ad)
-
----
-
-## ⚡ Get Started: Example Workflow
-
-To help you hit the ground running, this repository includes a sample ComfyUI workflow file that demonstrates the complete "Story to Screenplay" pipeline shown above.
-
-### How to Use
-
-1.  **Download the Workflow File:**
-    *   [**Right-click here and "Save Link As..." to download `Example_Workflow.json`**](https://github.com/routhakash/ComfyUI-AkkiNodes-Suite/blob/main/Example_Workflow.json)
-
-2.  **Load in ComfyUI:**
-    *   Simply drag and drop the downloaded `.json` file directly onto your ComfyUI canvas.
-
-3.  **Connect Your Model:**
-    *   The only thing you'll need to do is select your desired GGUF model in the `LLM Loader` node.
-
-**Note:** You must have the AkkiNodes suite installed correctly *before* loading the workflow, otherwise ComfyUI will show errors about missing custom nodes.
+This suite is designed as a modular production line, divided into four distinct phases. Each phase produces a canonical data artifact (e.g., a screenplay, a CSV) which is saved to disk. This "Workflow Checkpointing" allows you to work iteratively, refining one phase at a time without needing to re-run the entire pipeline.
 
 ---
 
@@ -61,14 +36,14 @@ To help you hit the ground running, this repository includes a sample ComfyUI wo
 
 1.  **Clone or Download:**
     *   Clone this repository into your `ComfyUI/custom_nodes/` directory.
-    *   Alternatively, download the ZIP, extract it, and place the `ComfyUI-AkkiNodes-Suite` folder inside `ComfyUI/custom_nodes/`.
+    *   Alternatively, download the ZIP, extract it, and place the `AkkiNodes-LLM-Suite-for-ComfyUI` folder inside `ComfyUI/custom_nodes/`.
 
 2.  **Install Dependencies (Windows):**
-    *   Navigate into the new `ComfyUI-AkkiNodes-Suite` folder.
-    *   **Right-click `install.bat` and select "Run as administrator"**. This only needs to be done once to install the required `llama-cpp-python` library.
+    *   Navigate into the new `AkkiNodes-LLM-Suite-for-ComfyUI` folder.
+    *   **Right-click `install.bat` and select "Run as administrator"**. This only needs to be done once.
 
 3.  **Download a GGUF Model:**
-    *   This suite requires a GGUF-format Large Language Model. You can find thousands of compatible models on [Hugging Face](https://huggingface.co/models?search=gguf).
+    *   This suite requires a GGUF-format Large Language Model. You can find thousands of compatible models on [Hugging Face's GGUF Model Hub](https://huggingface.co/models?search=gguf).
     *   Place your downloaded `.gguf` file into your `ComfyUI/models/llms/` directory.
 
 4.  **Restart ComfyUI:**
@@ -76,92 +51,58 @@ To help you hit the ground running, this repository includes a sample ComfyUI wo
 
 ---
 
-## 📖 Node Reference
+## 📖 Node Reference (Core Production Suite v77.0.0)
 
-### <div style="background-color: #2a3d4a; padding: 5px; border-radius: 5px;">🧠 LLM Core Nodes</div>
+### <div style="background-color: #2a3d4a; padding: 5px; border-radius: 5px;">Phase 1: Narrative Development</div>
+*Goal: To transform a simple idea into a complete, well-structured, and machine-readable screenplay.*
 
-#### `LLM Loader v2.2 - Akki`
-The starting point for all workflows. This node loads a GGUF model into memory and provides crucial feedback on its properties.
+#### `AI Story Writer (v5.2)`
+The starting point of the entire pipeline. Takes a simple concept and creative parameters to generate a complete prose story.
+*   **Architecture:** Uses an **"Orthogonal Input & Ground Truth Mandate"** to ensure factual consistency and prevent logical contradictions in the narrative.
 
-![LLM Loader Node](https://github.com/user-attachments/assets/be34d9c4-3f36-46dc-9862-a8ab9b9d9083)
+#### `AI ScriptCrafter P1, P2, P3`
+An automated "Writer's Room" that adapts the prose story into a professional screenplay.
+*   **P1 (Bible) (v7.2):** Creates the canonical **Character Bible** and **World Bible**. Its **"Analyze & Refine"** architecture uses a deterministic Python process to guarantee data accuracy.
+*   **P2 (Beat Sheet) (v4.0):** Creates a 15-point structural blueprint for the story.
+*   **P3 (Screenplay) (v16.8):** Writes a creatively rich screenplay, then uses a **"Creative Draft + Hybrid Heuristic Parser"** to guarantee perfect, industry-standard formatting.
 
----
+### <div style="background-color: #3d4a2a; padding: 5px; border-radius: 5px;">Phase 2: Pre-Production & Data Consolidation</div>
+*Goal: To translate the screenplay into a single, canonical spreadsheet (CSV) that governs the visual production.*
 
-### <div style="background-color: #4a2a3d; padding: 5px; border-radius: 5px;">📝 Narrative Generation Nodes</div>
+#### `AI Cinematographer (Pro) (v3.9)`
+Acts as the Director of Photography, reading the screenplay and creating a detailed, shot-by-shot breakdown.
+*   **Architecture:** Its **"Hybrid AI + Deterministic Resolver"** pattern fixes common AI weaknesses (like pronoun ambiguity) at the source.
 
-#### `AI Story Writer v3.4 - Akki`
-A specialized "Master Narrative Architect." It takes a simple concept and a rich set of parameters to generate a complete, well-structured story.
+#### `AI QC Supervisor (v2.1)`
+A data sanitization filter that cleans the raw output from the `Cinematographer`, removing "junk" data to prevent corruption of the production database.
 
-![AI Story Writer Node](https://github.com/user-attachments/assets/9169d170-b060-4090-968b-56ec78cfd970)
+#### `Pro Shot List Parser (v9.4)`
+The definitive gatekeeper of clean data. Ingests the clean shot breakdown and produces the final, canonical **production CSV file**.
+*   **Architecture:** Employs a **"Context-Aware Two-Pass Transform"** to perform high-fidelity data normalization, preventing data loss and dialogue corruption.
 
-#### `Image Prompt Generator v1.0 - Akki`
-A specialized node designed to engineer high-quality image generation prompts for models like Stable Diffusion.
+### <div style="background-color: #4a2a4a; padding: 5px; border-radius: 5px;">Phase 3: Visual Development (Lookdev)</div>
+*Goal: To establish the final, approved "art direction" for every character and set.*
 
-![Image Prompt Generator Node]([SCREENSHOT of Image Prompt Generator v1.0 - Akki])
+#### `Asset Selector (v3.6)`
+The Production Manager. Reads the final CSV and provides master lists of all assets, allowing the user to select a specific character or set for look development.
 
----
+#### `AI Character Lookdev (v13.0)` & `AI Set Lookdev (v6.0)`
+The Art Department. These nodes generate rich, detailed, story-specific prompts for creating character model sheets and set designs.
+*   **Architecture:** Use a **"Hybrid Multi-Stage AI + Python Enforcer"** pattern to guarantee factual details (like a character's age) are 100% correct in the final creative prompt.
 
-### <div style="background-color: #3d4a2a; padding: 5px; border-radius: 5px;">🎬 The AI ScriptCrafter Suite</div>
+### <div style="background-color: #4a3d2a; padding: 5px; border-radius: 5px;">Phase 4: Shot Production (Final Prompting)</div>
+*Goal: To combine the art direction from Phase 3 with the action of a single shot to create a final, ready-to-render image prompt.*
 
-This is a professional, three-phase suite of nodes designed to develop a story idea into a fully-fledged screenplay.
+#### `Shot Selector (v3.6)` & `Shot Asset Loader (v3.7)`
+Utilities for isolating a single shot and fetching all of its required data and lookdev assets (images and prompts) from the canonical files produced in previous phases.
 
-#### `AI ScriptCrafter 01 (Foundation) v3.3 - Akki`
-Analyzes the generated story to extract the core foundational elements of a screenplay: the logline, theme, and detailed character breakdowns.
+#### `AI Scene Choreographer (Bible) (v4.3)`
+The creative engine for this phase. It performs a scene-wide creative pass, ingesting the CSV data and all relevant lookdev prompts to generate bible-aware, lookdev-consistent prompts for all shots in a scene.
 
-![ScriptCrafter 01 Node](https://github.com/user-attachments/assets/2215466f-24f0-4d08-9e3d-48cd0a304d67)
+### <div style="background-color: #444; padding: 5px; border-radius: 5px;">Utilities</div>
 
-#### `AI ScriptCrafter 02 (Beat Sheet) v3.0 - Akki`
-Takes the foundational elements and builds the structural blueprint of the screenplay, following the classic "Save the Cat!" 15-beat structure.
+#### `LLM Loader` & `LLM Loader (LM Studio)`
+The core nodes for loading your local GGUF language models or connecting to an LM Studio server.
 
-![ScriptCrafter 02 Node](https://github.com/user-attachments/assets/9d307fb7-7ef5-4377-a838-3e3b3baf7b25)
-
-#### `AI ScriptCrafter 03 (Screenplay) v5.1 - Akki`
-The final phase. This node acts as an "AI Director," translating the beat sheet into a properly formatted screenplay with cinematic language.
-
-![ScriptCrafter 03 Node](https://github.com/user-attachments/assets/4092c38e-7631-4db8-9242-41bfde9cefe0)
-
----
-
-## 🗺️ Project Roadmap
-
-This project is ambitious and growing. Here is the vision for the future.
-
-### **Phase 1: Narrative Foundation**
-- [x] ✅ Core LLM Loading & Execution
-- [x] ✅ Advanced Story Generation Engine
-- [x] ✅ Professional Screenplay Generation Suite
-
-### **Phase 2: Visual Pre-Production**
-- [ ] 🔲 **Character Sheet Node:** Generate detailed visual descriptions of characters for image models.
-- [ ] 🔲 **Location Concept Node:** Generate detailed visual prompts for environments.
-- [ ] 🔲 **Storyboard Node:** Automatically generate a sequence of image prompts based on the screenplay's action lines.
-
-### **Phase 3: Automated Production**
-- [ ] 🔲 **Image Generation Integration:** Chain storyboard prompts directly into K-Sampler or other image generation nodes.
-- [ ] 🔲 **Animatic Creation:** Integrate with animation nodes (like AnimateDiff) to turn storyboards into simple animated sequences.
-
----
-
-## 💻 Hardware & Software Tested
-
-This suite has been developed and tested on the following configuration.
-
--   **OS:** Windows 11
--   **CPU:** 13th Gen Intel(R) Core(TM) i7-13700K @ 3.40 GHz
--   **GPU:** NVIDIA GeForce RTX 3060 (12GB VRAM)
--   **ComfyUI Version:** 0.3.43
--   **Python Version:** 3.12.0
--   **PyTorch Version:** 2.6.0+cu126
-
-## 🐛 Known Bugs & Limitations
-
--   **GPU Offloading:** The pre-built library sometimes fails to offload all layers to the GPU on certain hardware/driver configurations, defaulting to CPU. This is an upstream issue we are actively monitoring.
--   **LLM Reliability:** The quality of the output is highly dependent on the model used. Smaller or less capable models may fail to follow complex instructions or generate perfect JSON. For best results, use models with at least 13B parameters.
-
-## ❤️ Contributing
-
-This is a community-focused project. Pull requests, feature suggestions, and bug reports are highly welcome. Please open an issue to discuss any major changes.
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+#### `File I/O Nodes`
+A comprehensive suite of utilities for project management, allowing for robust saving and loading of any text data (stories, bibles, CSVs, prompts, etc.) to keep your project organized.
