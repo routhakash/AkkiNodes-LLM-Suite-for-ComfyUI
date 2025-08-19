@@ -26,12 +26,6 @@ Welcome to the **AkkiNodes Suite**, a professional, end-to-end creative pipeline
 
 ---
 
-## 🚀 The "Script to Screen" Pipeline
-
-This suite is designed as a modular production line, divided into four distinct phases. Each phase produces a canonical data artifact (e.g., a screenplay, a CSV) which is saved to disk. This "Workflow Checkpointing" allows you to work iteratively, refining one phase at a time without needing to re-run the entire pipeline.
-
----
-
 ## ⚙️ Installation Guide
 
 1.  **Clone or Download:**
@@ -48,6 +42,22 @@ This suite is designed as a modular production line, divided into four distinct 
 
 4.  **Restart ComfyUI:**
     *   Completely close and restart your ComfyUI instance.
+
+---
+
+## ▶️ Video Tutorial: Full Workflow Demo
+
+[![Watch the tutorial on YouTube](https://img.youtube.com/vi/woMTMyN94CI/maxresdefault.jpg)](https://youtu.be/woMTMyN94CI)
+
+**[Click here to watch the full "Script to Screen" workflow demonstration on YouTube.](https://youtu.be/woMTMyN94CI)**
+
+---
+
+## 🚀 Example Workflow File
+
+You can download the complete ComfyUI workflow file demonstrated in the video tutorial directly from this repository. Drag and drop this file onto your ComfyUI canvas to load the entire workflow.
+
+**[Download the Workflow JSON here](./WorkflowExample/Akki%20LLM%20Agents%20Suits%20WorkflowExample.json)**
 
 ---
 
